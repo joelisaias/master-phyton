@@ -4,7 +4,7 @@ def conectar():
     database = mysql.connector.connect(
         host="localhost",
         user='root',
-        passwd='',
+        passwd='password',
         database="master_python",
         port=3306
     )
